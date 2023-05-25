@@ -6,11 +6,20 @@ This is a simple approach to achieve high quality lip sync with the use of multi
 
 <h3>Setup</h3>
   
-  <ul>
-    <li>Replace audio source with your WAV/MP3 file, or connect to Microphone. </li>
-    <li>[OPTIONAL]Replace the character model with your custom character and attach AudioSource, uLipSync, and uLipSyncBlendShape </li>
+<ul>
+       
+   
+  <li>Install the uLipSync library
+    <ul>
+      <li>Download the latest .unitypackage from <a href="https://github.com/hecomi/uLipSync/releases">Release page</a></li>
+        <li>Import Unity.Burst and Unity.Mathematics from Package Manager. </li>
+    </ul>
+    </li>
+  
+   <li>Replace audio source with your WAV/MP3 file, or connect to Microphone. </li>
+    <li>(OPTIONAL)Replace the character model with your custom character and attach AudioSource, uLipSync, and uLipSyncBlendShape </li>
     <li>Edit and add visemes for more sound forms from the ULipSync blend shapes</li>
-    
+  
   </ul>
   
 <h3>DEMO<h3>
